@@ -22,7 +22,7 @@ document.querySelector('.tecla_splash').onclick = tocaSomsplash;
 
 function tocaSomtoim(){document.querySelector('#som_tecla_toim').play();}
 
-document.querySelector('.tecla_toim').onclick = tocaSomstoim;
+document.querySelector('.tecla_toim').onclick =tocaSomtoim;
 
 function tocaSompsh(){document.querySelector('#som_tecla_psh').play();}
 
@@ -36,5 +36,7 @@ function tocaSomtom(){document.querySelector('#som_tecla_tom').play();}
 
 document.querySelector('.tecla_tom').onclick = tocaSomtom;
 
+
+const listaDeTecla = document.querySelectorAll('.tecla')
 
 
